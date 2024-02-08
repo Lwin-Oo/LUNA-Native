@@ -1,8 +1,9 @@
 //spotifyAuth.js
 
-const spotifyClientId = '13b956cafe6b48a28c60a787add394fa';
-const spotifyClientSecret = '8cf32fc5baf94a60b15f826e23f23aee';
-const spotifyRedirectUri = 'http://localhost:8081/--/spotify-auth-callback';
+const spotifyClientId = 'Client-Id';
+const spotifyClientSecret = 'Client-Secret';
+const spotifyRedirectUri = 'Redirect-Uri';
+//Uri format: 'http://localhost:XXXX/--/spotify-auth-callback'
 
 console.log('Spotify Auth:', {
   clientId: spotifyClientId,
