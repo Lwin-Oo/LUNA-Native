@@ -13,7 +13,7 @@ const SpotifyButton = () => {
   const [request, response, promptAsync] = AuthSession.useAuthRequest(
     {
       issuer: 'https://accounts.spotify.com',
-      clientId: '13b956cafe6b48a28c60a787add394fa',
+      clientId: 'Client-Id',
       scopes: [
         'user-read-email',
         'user-library-read',
@@ -23,7 +23,7 @@ const SpotifyButton = () => {
         'playlist-read-collaborative',
         'playlist-modify-public', // or 'playlist-modify-private'
       ],
-      redirectUri: 'http://localhost:8081/--/spotify-auth-callback',
+      redirectUri: 'Redirect-Uri',
     },
     { authorizationEndpoint: 'https://accounts.spotify.com/authorize' }
   );
