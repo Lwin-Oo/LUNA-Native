@@ -70,7 +70,7 @@ _______________________
 			      			
 	High					Low				High
 
-     Positivity			  Valence, Energy, Danceability        Acoustiness, Instrumentalness
+     Positivity			  Valence, Energy, Danceability        Acousticness, Instrumentalness
 
      Negativity			  Acoustiness, Instrumentalness        Valence, Energy, Danceability
 
